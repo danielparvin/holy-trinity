@@ -1,0 +1,155 @@
+/* General */
+body {
+  background: midnightblue;
+  color: #132020;
+  font-family: 'Assistant', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+/* Rows */
+.container .row {
+  background: lavender;
+  height: 100%;
+  margin-bottom: -50px;
+  padding-top: 50px;
+}
+
+/* Scripture lists */
+.scriptures li {
+  -moz-box-shadow:    1px 1px 3px 0px #ccc;
+  -webkit-box-shadow: 1px 1px 3px 0px #ccc;
+  box-shadow:         1px 1px 3px 0px #ccc;
+}
+
+/* Resources */
+#resources h3 {
+  background: lightblue;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Footer */
+#footer {
+  background-color: lightblue;
+  margin: 50px -15px 0px -15px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Links */
+a {
+  text-decoration: underline;
+}
+
+a:link {
+color: #2d6a9f; /* 40% of the default #337ab7 */
+}
+
+a:visited {
+  color: #163550; /* 20% */
+}
+
+a:hover,
+a:active {
+color: #224f77; /* 30% */
+}
+
+/* Other details */
+blockquote {
+  margin-top: 10px;
+  background: lightblue;
+  border-radius: 10px;
+  border-left: none;
+}
+
+blockquote footer {
+  color: #132020;
+}
+
+h2 {
+  font-style: italic;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #132020;
+  margin: 5px;
+}
+
+p {
+  text-indent: 15px;
+}
+
+/** Navbar **/
+.navbar {
+  background: midnightblue;
+  border: none;
+}
+
+/* Navbar Brand */
+.navbar-default .navbar-brand:link,
+.navbar-default .navbar-brand:visited,
+.navbar-default .navbar-brand:active{
+  color: lavender;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-brand:hover {
+  text-decoration: underline;
+}
+
+/* Navbar Links */
+.navbar-default .navbar-nav>li>a {
+  color:lavender;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav>li>a:link,
+.navbar-default .navbar-nav>li>a:visited,
+.navbar-default .navbar-nav>li>a:active {
+  color: lavender;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar dropdown */
+ul .dropdown-menu {
+  background: midnightblue;
+}
+
+.navbar-default .navbar-nav>.open>a,
+.navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.open>a:focus {
+  background-color: midnightblue;
+  color: lavender;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: lavender;
+  text-decoration: none;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:visited,
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:active {
+    color: lavender;
+  background: midnightblue;
+  text-decoration: none;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+  background: midnightblue;
+  text-decoration: underline;
+}
+
+/* Navbar Icon bar */
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: lightblue;
+}
+.navbar-default .navbar-toggle {
+    border-color: lightblue;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: lavender;
+}
