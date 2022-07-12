@@ -1,0 +1,2 @@
+# Holy Trinity
+I originally developed this static web page and its content in 2015, when I was first learning HTML, CSS, and JavaScript. Its content summarizes the biblical foundation of the Christian doctrine of the Holy Trinity.

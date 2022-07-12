@@ -1,38 +1,10 @@
 <!DOCTYPE HTML>
 <html>
 <head>
+<title>The Holy Trinity</title>
 <link href="https://fonts.googleapis.com/css?family=Assistant:400,700" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" media="all">
-<link rel="stylesheet" href="style/style.css" type="text/css" media="all">
-
-<script>
-	var refTagger = {
-		settings: {
-			bibleVersion: "ESV",			
-			socialSharing: [],
-			tooltipStyle: "light",
-			customStyle : {
-				heading: {
-					backgroundColor : "lavender",
-					color : "slategrey",
-					fontFamily : "Verdana, Geneva, sans-serif"
-				},
-				body   : {
-					color : "black",
-					fontFamily : "Assistant, sans-serif",
-					moreLink : {
-						color: "midnightblue"
-					}
-				}
-			}
-		}
-	};
-	(function(d, t) {
-		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-		g.src = "//api.reftagger.com/v2/RefTagger.js";
-		s.parentNode.insertBefore(g, s);
-	}(document, "script"));
-</script>
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 </head>
 
 <body>
@@ -86,8 +58,7 @@
     <div class="col-md-8">
       <h2>Introduction</h2>
       <h3>Christians worship one God in three persons--the Father, the Son (i.e., Jesus) and the Holy Spirit.</h3>
-      <p>They do so because God has clearly revealed the doctrine of the Holy Trinity in the inspired Scriptures. They don't accept the doctrine of the Trinity just because it "feels right" to them or because of a decree from some pope or church council. Rather,
-        they believe and cherish the truth of who God is because God has made it known in the Bible.</p>
+      <p>They do so because God has clearly revealed the doctrine of the Holy Trinity in the inspired Scriptures. They don't accept the doctrine of the Trinity just because it "feels right" to them or because of a decree from some pope or church council. Rather, they believe and cherish the truth of who God is because God has made it known in the Bible.</p>
       <p>The doctrine is summed up in the statement that God is one being in three fully-divine persons. This definition is a summary of seven fundamental tenets, each clearly revealed in the Scriptures:</p>
       <ul class="tenets">
         <li>There is but one God.</li>
@@ -258,27 +229,58 @@
       <hr>
       <ul id="resources-videos">
         <li><a href="https://www.youtube.com/watch?v=_ecgkxevoYI">The Forgotten Trinity (James R. White)</a></li>
-        <li><a href="https://www.youtube.com/watch?v=TZRgdQtx-qA" target="_blank">Exegesis of John 1:1 (Edward Dalcour)</a></li>
       </ul>
     </div>
     <div class="col-md-3">
       <h3>Books</h3>
       <hr>
       <ul id="resources-books">
-        <li><a href="http://store.aomin.org/the-forgotten-trinity.html">The Forgotten Trinity (James R. White)</a></li>
-        <li><a href="http://www.zondervan.com/jesus-only-churches">"Jesus-Only" Churches (E. Calvin Beisner)</a></li>
-        <li><a href="http://www.ivpress.com/cgi-ivpress/book.pl/code=3983">Delighting in the Trinity (Michael Reeves)</a></li>
+        <li><a href="https://www.amazon.com/Forgotten-Trinity-Recovering-Christian-Belief/dp/0764233823">The Forgotten Trinity (James R. White)</a></li>
+        <li><a href="https://www.amazon.com/Jesus-Only-Churches-Calvin-Beisner/dp/0310488710">"Jesus-Only" Churches (E. Calvin Beisner)</a></li>
+        <li><a href="https://www.amazon.com/Delighting-Trinity-Introduction-Christian-Faith/dp/0830839836">Delighting in the Trinity (Michael Reeves)</a></li>
       </ul>
     </div>
 
   </div>
   <div class="row" id="footer">
     <div class="col-md-12">
-      <p>Created and designed by <a href="http://www.danielparvin.com/" target="_blank">Daniel Parvin</a> <br>with supervision from the elders of <a href="http://www.redemptionec.org" target="_blank">Redemption Church</a>.</p>
+      <p>Created and designed by <a href="javascript:void(0)">Daniel Parvin</a> <br>with supervision from the elders of <a href="javascript:void(0)">Redemption Church</a>.</p>
     </div>
   </div>
 </div>
 <!-- /.container -->
 <script rel="javascript" type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script rel="javascript" type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script>
+	var refTagger = {
+		settings: {
+			bibleVersion: "ESV",			
+			socialSharing: [],
+			tooltipStyle: "light",
+			customStyle : {
+				heading: {
+					backgroundColor : "lavender",
+					color : "slategrey",
+					fontFamily : "Verdana, Geneva, sans-serif"
+				},
+				body   : {
+					color : "black",
+					fontFamily : "Assistant, sans-serif",
+					moreLink : {
+						color: "midnightblue"
+					}
+				}
+			}
+		}
+	};
+
+	(function(d, t) {
+		var n=d.querySelector('[nonce]');
+		refTagger.settings.nonce = n && (n.nonce||n.getAttribute('nonce'));
+		var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
+		g.src = 'https://api.reftagger.com/v2/RefTagger.js';
+		g.nonce = refTagger.settings.nonce;
+		s.parentNode.insertBefore(g, s);
+	}(document, 'script'));
+</script>
 </body>
